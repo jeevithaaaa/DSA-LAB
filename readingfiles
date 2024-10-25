@@ -1,0 +1,17 @@
+f=open('yes.txt', 'r')
+f.read()
+
+f = open('yes.txt', 'w')
+val='Hello again'
+f.write(val)
+
+f=open('yes.txt', 'r')
+f.read()
+
+f = open('yes.txt', 'a')
+f.write(val)
+
+f=open('yes.txt', 'r')
+f.read()
+
+f.close()
